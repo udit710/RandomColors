@@ -19,7 +19,7 @@ class ColorsTableVC: UIViewController{
     }
     
     func addRandColor(){
-        for _ in 0..<50{
+        for _ in 0..<51{
             colors.append(.random())
         }
     }
